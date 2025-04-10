@@ -24,7 +24,7 @@ jobs:
         with:
           aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
           aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-          aws-region: ap-southeast-1  # Make sure this matches the region used in your resources
+          aws-region: us-east-1  # Make sure this matches the region used in your resources
 
       # Set up Terraform
       - name: Set up Terraform
